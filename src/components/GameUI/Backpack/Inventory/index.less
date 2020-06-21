@@ -1,0 +1,46 @@
+@import "../../../common.less";
+
+.inventory {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .item {
+        width: 96px;
+        height: 96px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        transition: background 100ms ease-in-out;
+        border: 2px solid @color-nugbase-light-grey;
+        cursor: pointer;
+        position: relative;
+
+        &:hover {
+            background: fade(@color-nugbase-dark-grey, 10%);
+        }
+
+        &:active {
+            background: fade(@color-nugbase-dark-grey, 5%);
+        }
+
+        .background {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            bottom: 8px;
+            left: 8px;
+            background-size: cover;
+        }
+
+        .name {
+            font-size: 12px;
+        }
+
+        .quantity {
+            font-size: 8px;
+        }
+    }
+}

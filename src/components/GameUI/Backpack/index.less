@@ -1,0 +1,109 @@
+@import "../../common.less";
+
+@backpackBGColor: #F1DCB0;
+@headerBGColor: #5DC6E6;
+@headerButtonColor: #2FA1C3;
+@headerButtonTextColor: @color-nugbase-light-grey;
+@closeXColor: @headerButtonColor;
+@layoutSpacing: 20px;
+
+.backpack {
+    position: relative;
+    cursor: default;
+    pointer-events: all;
+    border-radius: 16px;
+    background-color: @backpackBGColor;
+    width: 700px;
+    min-height: 528px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        font-variant: small-caps;
+        color: @color-nugbase-light-grey;
+        background-color: @headerBGColor;
+        border-radius: 16px;
+        margin: @layoutSpacing @layoutSpacing 0px;
+        padding: 8px;
+
+        .tabs {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .tabstyle() {
+                #ui.button(@headerButtonColor);
+                border-radius: 10px;
+                width: 160px;
+                text-align: center;
+                color: @headerButtonTextColor;
+                text-transform: uppercase;
+            }
+
+            .mapTab {
+                .tabstyle();
+            }
+
+            .inventoryTab {
+                .tabstyle();
+            }
+
+            .flowerTab {
+                .tabstyle();
+            }
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: 6px;
+        right: 8px;
+        #ui.clickableTextLighten(@headerBGColor);
+    }
+
+    .content {
+        margin: @layoutSpacing;
+
+        .map {
+            position: relative;
+            // width/height set by JS
+            background-image: url('/gamedata/World/Alvita.png');
+            background-size: 104%;
+            background-position: center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            border-radius: 16px;
+            border: 4px solid @color-nugbase-light-grey;
+
+            .hereDot {
+                position: relative;
+                border: 4px solid white;
+                border-radius: 8px;
+                mix-blend-mode: overlay;
+            }
+
+            .regions {
+                font-weight: bolder;
+                color: @color-nugbase-light-grey;
+                text-shadow:
+                1px 1px 0 #000,
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px  1px 0 #000,
+                1px  1px 0 #000;
+                width: 100%;
+                height: 100%;
+                position:absolute;
+                top: 0;
+                left: 0;
+
+                .region {
+                    position: absolute;
+                }
+            }
+        }
+    }
+}

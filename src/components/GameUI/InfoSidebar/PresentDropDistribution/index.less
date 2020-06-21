@@ -1,0 +1,43 @@
+@import "../../../common.less";
+
+.dropRate {
+    max-width: 215px;
+
+    .heading {
+        font-size: 14px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .rates {
+        font-size: 10px;
+
+        .drop {
+            display: flex;
+            justify-content: space-between;
+
+            .kind {
+            }
+
+            .rate {
+                color: @color-nugbase-green;
+            }
+        }
+    }
+
+    .supportedProjects {
+        font-size: 10px;
+        opacity: 0.8;
+        margin-top: 16px;
+    }
+
+    .addYourOwn {
+        font-size: 10px;
+        opacity: 0.8;
+        margin-top: 8px;
+
+        a {
+            #ui.link(@color-nugbase-green);
+        }
+    }
+}

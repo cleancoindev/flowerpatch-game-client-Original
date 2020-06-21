@@ -1,0 +1,17 @@
+@import "../../../common.less";
+
+.interact {
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, 24px);
+    filter: drop-shadow(2px 2px 2px @color-nugbase-mid-grey);
+    width: 132px;
+    transition: opacity 150ms ease-in-out;
+    opacity: 1;
+
+    .button {
+        #ui.button(@color-nugbase-purple);
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,403 @@
+// Nugbase common Less functions and variables
+
+// Variables
+@color-nugbase-green: rgb(120,210,130);
+@color-nugbase-blue: rgb(65, 130, 193);
+@color-nugbase-purple: rgb(166,107,208);
+@color-nugbase-light-purple: rgb(229, 77, 207);
+@color-nugbase-dark-purple: rgb(177,38,156);
+@color-nugbase-dark-grey: rgb(0, 23, 59);
+@color-nugbase-mid-grey: fade(@color-nugbase-dark-grey, 30%);
+@color-nugbase-light-grey: rgb(239, 240, 241);
+@color-nugbase-black: rgb(10, 27, 47);
+@color-nugbase-faded-purple: rgb(110, 68, 130);
+@color-nugbase-faded-green: rgb(106, 185, 133);
+@color-nugbase-faded-blue: rgb(20, 82, 140);
+
+// Flowerpatch site specific colors
+@color-flowerpatch-red: rgb(214,16,88);
+@color-flowerpatch-pink: rgb(234,39,122);
+@color-flowerpatch-orange: rgb(255, 190, 68);
+
+// FLOWER card colors (like rarity, or land type)
+@color-flower-common: rgb(160,160,160);
+@color-flower-unusual: rgb(103,193,113);
+@color-flower-rare: rgb(25,153,207);
+@color-flower-epic: rgb(255, 114, 208);
+@color-flower-legendary: rgb(255,190,68);
+
+// Media Queries
+@base-query: all;
+@retina-query: ~"@{base-query} and (-moz-min-device-pixel-ratio: 1.5), @{base-query} and (-o-min-device-pixel-ratio: 3/2), @{base-query} and (-webkit-min-device-pixel-ratio: 1.5), @{base-query} and (min-device-pixel-ratio: 1.5), @{base-query} and (min-resolution: 1.5dppx)";
+@small-query: ~"@{base-query} and (max-width: 480px)";
+@medium-query: ~"@{base-query} and (max-width: 839px)";
+
+// General Utilities
+.size(@width: 50px, @height: 50px) {
+    width: @width;
+    height: @height;
+}
+
+.square(@width: 50px) {
+    .size(@width, @width);
+}
+
+// Very interesting hack to make a div that maintains aspect ratio
+.auto-aspect-image(@width, @height) {
+    max-width: 80vw;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: ((@height / @width) * 100%);
+    }
+
+    > .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-size: 100%;
+        background-position: center top;
+    }
+}
+
+.stripes(@angle: -45deg, @color: rgba(0, 0, 0, 1), @size: 4px /* size must be an even number */) {
+    background-image: -webkit-repeating-linear-gradient(@angle, @color, @color 25%, transparent 25%, transparent 50%, @color 50%);
+    background-image: -moz-repeating-linear-gradient(@angle, @color, @color 25%, transparent 25%, transparent 50%, @color 50%);
+    background-image: -ms-repeating-linear-gradient(@angle, @color, @color 25%, transparent 25%, transparent 50%, @color 50%);
+    background-image: -o-repeating-linear-gradient(@angle, @color, @color 25%, transparent 25%, transparent 50%, @color 50%);
+    background-image: repeating-linear-gradient(@angle, @color, @color 25%, transparent 25%, transparent 50%, @color 50%);
+
+    background-size: @size @size;
+}
+
+// Standardized z-index categories
+#zlayer {
+    .bottom {
+        z-index: 0;
+    }
+
+    .middle {
+        z-index: 100;
+    }
+
+    .top {
+        z-index: 200;
+    }
+
+    .auto {
+        z-index: auto;
+    }
+}
+
+// Layout Components
+#layout {
+    // Container sized to screen, centers content
+    .full-page(@bgurl: "/img/Common/contact-us-mountains-bg.jpg") {
+        #zlayer.bottom();
+        background-image: url(@bgurl);
+        background-size: cover;
+        background-position: center bottom;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .page-centered-content(@content-width: 780px, @v-center: false) {
+        margin: 0 auto;
+        width: @content-width;
+        min-height: 100%;
+        max-width: 80vw;
+        padding: 102px 0px 128px; // for header + footer graphic
+
+        & when (@v-center = true) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .page-footer-background(@url: "/img/Common/town-graphic-bottom.png") {
+        background-image: url(@url);
+        background-position: bottom center;
+        background-size: 75% auto;
+        background-repeat: no-repeat;
+    }
+}
+
+// User Interface Components
+#ui {
+    .link(@color: @color-nugbase-green) {
+        color: @color;
+        cursor: pointer;
+        text-decoration: none;
+        transition: color 200ms ease-in-out;
+
+        &:visited {
+            color: @color;
+        }
+
+        &:hover {
+            color: contrast(@color, lighten(@color, 10%), darken(@color, 10%));
+        }
+
+        &:active {
+            color: contrast(@color, darken(@color, 20%), lighten(@color, 20%));
+        }
+
+        &:not([href]) {
+            pointer-events: none;
+            color: desaturate(@color, 35%);
+        }
+    }
+
+    .button(@color: @color-nugbase-green, @disabled: false) {
+        -webkit-appearance: none;
+        font-size: 14px;
+        line-height: 32px;
+        font-weight: normal;
+        display: inline-block;
+        background-color: @color;
+        padding: 0px 16px;
+        color: white;
+        border-radius: 80px;
+        cursor: pointer;
+        border: 0px solid black;
+        outline: none;
+        outline-width: 0px;
+        user-select: none;
+        transition: all 200ms ease-in-out;
+        white-space: nowrap;
+        margin: 0px;
+
+        & when (@disabled=true) {
+            background-color: grey;
+            color: lightgrey;
+            pointer-events: none;
+        }
+
+        &:hover when (@disabled=false) {
+            background-color: contrast(@color, lighten(@color, 5%), darken(@color, 5%));
+
+            img {
+                filter: brightness(110%);
+                transition: all 200ms ease-in-out;
+            }
+        }
+
+        &:active when (@disabled=false) {
+            background-color: contrast(@color, darken(@color, 10%), lighten(@color, 10%));
+
+            img {
+                filter: brightness(80%);
+                transition: all 200ms ease-in-out;
+            }
+        }
+
+        &[data-valid="true"] {
+            pointer-events: none;
+            background-color: desaturate(@color, 10%);
+            color: rgba(255, 255, 255, 0.9);
+        }
+    }
+
+    .textinput() {
+        -webkit-appearance: none;
+        margin: 0px;
+        color: rgb(0, 23, 59);
+        height: 32px;
+        background-color: white;
+        border-radius: 80px;
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0px 16px;
+        border: 1px solid transparent;
+        outline: none;
+        outline-width: 0px;
+        transition: all 200ms ease-in-out;
+
+        &[data-valid="false"] {
+            @invalid-color: rgba(255, 20, 20, 0.1);
+            .stripes(45deg, @invalid-color, 16px);
+        }
+
+        &[data-valid="true"] {
+            pointer-events: none;
+            background-color: lighten(@color-nugbase-green, 30%);
+        }
+    }
+
+    .wrapped-textarea() {
+        position: relative;
+        background-color: white;
+        border-radius: 16px;
+        border: 1px solid transparent;
+        transition: all 200ms ease-in-out;
+        font-size: 12px;
+        line-height: 16px;
+        height: 8em;
+        width: 100%;
+
+        // does all this seem dumb? yes, textarea is hella broken
+        // and doesn't let you do modern sizing... This is the
+        // only way to have dynamic sizing + scrollbar that doesnt
+        // interfere with the border-radius
+        .textarea-sizer {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            bottom: 8px;
+            left: 15px; // 1 for border
+
+            textarea {
+                -webkit-appearance: none;
+                margin: 0px;
+                height: 100%;
+                width: 100%;
+                font-size: 12px;
+                line-height: 16px;
+                background-color: transparent;
+                color: rgb(0, 23, 59);
+                resize: none;
+                overflow-x: hidden;
+                border: 0px solid transparent;
+                outline: none;
+                outline-width: 0px;
+
+                &[data-valid="false"] {
+                    @invalid-color: rgba(255, 20, 20, 0.1);
+                    .stripes(45deg, @invalid-color, 16px);
+                }
+
+                &[data-valid="true"] {
+                    pointer-events: none;
+                    background-color: lighten(@color-nugbase-green, 30%);
+                }
+            }
+        }
+    }
+
+    .clickableImage(@delta: 20%) {
+        transition: all 200ms ease-in-out;
+        filter: brightness(100%);
+        cursor: pointer;
+
+        &:hover {
+            filter: brightness((100% + @delta));
+        }
+
+        &:active {
+            filter: brightness((100% - @delta));
+        }
+    }
+
+    .clickableText(@color: @color-nugbase-dark-grey) {
+        transition: all 100ms;
+        cursor: pointer;
+        color: @color;
+
+        &:hover {
+            color: contrast(@color, lighten(@color, 30%), darken(@color, 30%));
+        }
+
+        &:active {
+            color: contrast(@color, darken(@color, 50%), lighten(@color, 50%));
+        }
+    }
+
+    .clickableTextLighten(@color: @color-nugbase-light-grey) {
+        transition: all 100ms;
+        cursor: pointer;
+        color: @color;
+
+        &:hover {
+            color: lighten(@color, 100%);
+        }
+
+        &:active {
+            color: darken(@color, 20%);
+        }
+    }
+
+    .pageTitle(@color: @color-nugbase-green) {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        color: @color;
+        font-weight: bold;
+    }
+
+    .pageSubtitle(@color: @color-nugbase-dark-grey) {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: lighter;
+        color: @color;
+    }
+
+    .divider(@color: @color-nugbase-mid-grey, @position: bottom, @dot-size: 1px, @dot-spacing: 6) {
+        @dot-spacing-percent: percentage((1 / @dot-spacing));
+
+        background-image: linear-gradient(to right,
+            @color @dot-spacing-percent,
+            rgba(255,255,255,0) 0%);
+        background-position: @position;
+        background-size: (@dot-size * @dot-spacing) @dot-size;
+        background-repeat: repeat-x;
+    }
+
+    .tinted-container(@background: fade(black, 80%), @foreground: fade(white, 80%)) {
+        background-color: @background;
+        border-radius: 32px;
+        color: @foreground;
+        font-size: 11px;
+        line-height: 14px;
+        font-weight: normal;
+        overflow: hidden;
+    }
+}
+
+// Text Effects
+#text {
+    .excited(@color: @color-nugbase-purple) {
+        @keyframes TEXT-SHADOW-DANCE {
+            0% {
+                text-shadow: -1px -0.5px 0px spin(@color, 180);
+            }
+            25% {
+                text-shadow: 0.5px -1px 0px spin(@color, 270);
+            }
+            50% {
+                text-shadow: 1px 0.5px 0px @color;
+            }
+            75% {
+                text-shadow: -0.5px 1px 0px spin(@color, 90);
+            }
+            100% {
+                text-shadow: -1px -0.5px 0px spin(@color, 180);
+            }
+        }
+
+        font-variant: small-caps;
+        animation: TEXT-SHADOW-DANCE 0.4s linear infinite;
+    }
+
+    .emphasized(@color: @color-nugbase-purple) {
+        font-variant: small-caps;
+        text-shadow: 1px 1px 1px @color;
+    }
+
+    .small() {
+        font-size: 10px;
+    }
+
+    .tiny() {
+        font-size: 8px;
+    }
+}

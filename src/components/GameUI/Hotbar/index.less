@@ -1,0 +1,80 @@
+@import "../../common.less";
+
+@border-color: @color-nugbase-light-grey;
+@selected-color: @color-nugbase-light-grey;
+@background-shading: fade(@color-nugbase-dark-grey, 10%);
+
+.hotbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    pointer-events: all;
+    width: 100%;
+    max-width: 780px;
+    margin: 0px 32px 24px 32px;
+    background-color: @background-shading;
+    border: 2px solid @border-color;
+    border-radius: 8px;
+
+    .tool {
+        position: relative;
+        height: 100%;
+        width: 96px;
+
+        background-size: 48px;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-image will be set by JS */
+
+        cursor: pointer;
+        transition: background-size 100ms linear;
+
+        &:hover {
+            background-size: 52px;
+            background-color: fade(@selected-color, 40%);
+
+            &:after {
+                position: absolute;
+                top: -64px;
+                left: -32px;
+                right: -32px;
+                content: attr(data-tooltip);
+                text-align: center;
+                margin: 8px 16px;
+                border-radius: 8px;
+                color: @color-nugbase-dark-grey;
+                font-variant: small-caps;
+                letter-spacing: 2px;
+                line-height: 32px;
+                font-size: 16px;
+                background-color: @color-nugbase-light-grey;
+                filter: drop-shadow(2px 2px 2px @color-nugbase-mid-grey);
+            }
+        }
+
+        &:active {
+            background-size: 48px;
+            background-color: @background-shading;
+        }
+
+        &.selected {
+            background-color: @selected-color;
+
+            &:hover, &:active {
+                background-size: 48px;
+                background-color: @selected-color;
+            }
+        }
+
+        &.border {
+            border-right: 2px solid @border-color;
+        }
+
+        &.disabled {
+            filter: grayscale(100%);
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    }
+}

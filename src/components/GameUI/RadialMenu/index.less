@@ -1,0 +1,17 @@
+@import "../../common.less";
+
+.radialMenu {
+    position: fixed;
+    transition: opacity 200ms ease-in-out;
+    opacity: 0;
+    .square(0px);
+
+    &.enabled {
+        opacity: 1;
+        pointer-events: none;
+
+        .button {
+            pointer-events: all;
+        }
+    }
+}

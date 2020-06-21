@@ -1,0 +1,307 @@
+@import "../common.less";
+
+@keyframes FADE-IN-INSET-SHADOW {
+    0% {
+        box-shadow: inset 0px 0px 0px 4px transparent;
+    }
+    100% {
+        box-shadow: inset 0px 0px 32px 4px @color-nugbase-mid-grey;
+    }
+}
+
+@keyframes FADE-IN-BACKGROUND {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: @color-nugbase-dark-grey;
+    }
+}
+
+@keyframes ISO-BUTTON-SLIDE-IN-FROM-BOTTOM {
+    0% {
+        bottom: -180px;
+    }
+    90% {
+        bottom: -180px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.gamecontainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 200;
+    animation: FADE-IN-BACKGROUND 1s normal forwards ease-in-out;
+
+    #game {
+        cursor: url('/img/Game/icons/glove-icon.svg'), auto;
+    }
+
+    #overlay {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        pointer-events: none;
+        user-select: none;
+        animation: FADE-IN-INSET-SHADOW 8s normal forwards ease-in-out;
+
+        @media @small-query {
+            zoom: 0.75;
+        }
+
+        .fullscreenButton {
+            .square(32px);
+            background-image: url('/img/Common/fullscreen.svg');
+            background-size: contain;
+            position: absolute;
+            top: 32px;
+            left: 32px;
+            cursor: pointer;
+            opacity: 0.25;
+            transition: opacity 200ms ease-in-out;
+            pointer-events: all;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &:active {
+                opacity: 0.25;
+            }
+
+            &.enabled {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+
+        .accountNav {
+            position: absolute;
+            top: 22px;
+            right: 16px;
+            pointer-events: all;
+        }
+
+        .selectionUI {
+            position: absolute;
+            top: 80px;
+            right: 16px;
+            min-width: 180px;
+            background-color: fade(@color-nugbase-dark-grey, 60%);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px 16px;
+            transition: all 250ms ease-in-out;
+            color: @color-nugbase-light-grey;
+            pointer-events: all;
+
+            .sideBySide {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                font-size: 14px;
+                line-height: 16px;
+                margin-top: 8px;
+
+                .tileInfo {
+                    color: @color-nugbase-light-grey;
+                    font-size: 16px;
+                    margin-right: 8px;
+                    max-width: 180px;
+
+                    .tileName {
+                        text-align: center;
+                        font-variant: small-caps;
+                    }
+
+                    .topperDescription {
+                        margin-top: 8px;
+                        text-align: center;
+                        font-style: italic;
+                    }
+                }
+
+                canvas.tile {
+                    margin: -8px 24px 8px 8px;
+                }
+
+                .title {
+                    font-variant: small-caps;
+                    margin-right: 16px;
+                }
+
+                .value {
+                    #ui.link(@color-flowerpatch-orange);
+                }
+            }
+
+            .card {
+                margin-top: 16px;
+            }
+        }
+
+        .bottomPanel {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            height: 180px;
+            animation: ISO-BUTTON-SLIDE-IN-FROM-BOTTOM 6s normal forwards ease-in-out;
+
+            @media @small-query {
+                zoom: 0.5;
+            }
+
+            .iso-button-common() {
+                .size(114px, 103px);
+                min-width: 114px;
+                position: relative;
+                background-size: cover;
+                cursor: pointer;
+                transition: all 100ms ease-in-out;
+                pointer-events: all;
+                bottom: -32px;
+                margin: 0px 64px;
+
+                @media @small-query {
+                    margin: 0px 32px;
+                }
+
+                &:hover {
+                    bottom: -28px;
+                }
+
+                &:active {
+                    bottom: -34px;
+                }
+            }
+
+            .backpackIcon {
+                .iso-button-common();
+                background-image: url('/img/Game/isometric/platform-with-shadow.png');
+
+                &:after {
+                    content: ' ';
+                    .size(77px, 98px);
+                    background: url('/img/Game/isometric/backpack.png');
+                    background-size: cover;
+                    position: absolute;
+                    top: -50px;
+                    left: 18px;
+                    cursor: pointer;
+                }
+            }
+
+            .centeredVertical {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex: 1;
+
+                .errorStack {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 24px;
+
+                    .error {
+                        color: white;
+                        text-shadow: 1px 1px 4px @color-nugbase-dark-grey;
+                        margin-top: 8px;
+                    }
+                }
+            }
+
+            .shopIcon {
+                .iso-button-common();
+                background-image: url('/img/Game/isometric/platform-with-shadow.png');
+
+                &:after {
+                    content: ' ';
+                    .size(98px, 110px);
+                    background: url('/img/Game/isometric/store.png');
+                    background-size: cover;
+                    position: absolute;
+                    top: -62px;
+                    left: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .backpack {
+            position: relative;
+            cursor: default;
+            pointer-events: all;
+            border: 2px solid @color-nugbase-light-grey;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px 0px @color-nugbase-dark-grey;
+            background-color: @color-nugbase-light-grey;
+
+            .header {
+                border-bottom: 2px solid @color-nugbase-light-grey;
+                font-size: 14px;
+                padding: 4px 16px;
+                font-variant: small-caps;
+                text-align: right;
+                color: @color-nugbase-light-grey;
+                background-color: rgb(202, 166, 102);
+                border-top-right-radius: 8px;
+                border-top-left-radius: 8px;
+            }
+
+            .map {
+                position: relative;
+                // width/height set by JS
+                background-image: url('/gamedata/World/Alvita.png');
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                border-radius: 8px;
+                .hereDot {
+                    position: relative;
+                    border: 2px solid red;
+                }
+
+                .regions {
+                    font-weight: bolder;
+                    color: white;
+                    text-shadow:
+                    1px 1px 0 #000,
+                   -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                   -1px  1px 0 #000,
+                    1px  1px 0 #000;
+                    width: 100%;
+                    height: 100%;
+                    position:absolute;
+                    top: 0;
+                    left: 0;
+
+                    .region {
+                        position: absolute;
+                    }
+                }
+
+            }
+        }
+    }
+}

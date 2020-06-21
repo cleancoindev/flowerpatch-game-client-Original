@@ -1,0 +1,93 @@
+@import "../../common.less";
+
+.selectionUI {
+    position: absolute;
+    top: 80px;
+    right: 16px;
+    min-width: 180px;
+    background-color: fade(@color-nugbase-dark-grey, 60%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px 32px;
+    transition: all 250ms ease-in-out;
+    color: @color-nugbase-light-grey;
+    pointer-events: all;
+
+    &:hover {
+        .close {
+            opacity: 0.3;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        opacity: 0.05;
+        transition: all 150ms ease-in-out;
+        cursor: pointer;
+
+        &:after {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            content: "✕";
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+    }
+
+    .sideBySide {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 8px;
+
+        .groundInfo {
+            color: @color-nugbase-light-grey;
+            font-size: 16px;
+            margin-right: 8px;
+            margin-left: 16px;
+            max-width: 148px;
+
+            .tileName {
+                text-align: center;
+                font-variant: small-caps;
+            }
+
+            .topperDescription {
+                margin-top: 8px;
+                text-align: center;
+                font-style: italic;
+            }
+        }
+
+        canvas {
+            margin: -16px 0px 8px 8px;
+        }
+
+        .title {
+            font-variant: small-caps;
+            margin-right: 16px;
+        }
+
+        .value {
+            #ui.link(@color-flowerpatch-orange);
+        }
+    }
+
+    .card {
+        margin-top: 16px;
+    }
+}
