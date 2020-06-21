@@ -1,6 +1,8 @@
-= Flowerpatch Game Client — JavaScript
+Flowerpatch Game Client — JavaScript
+=
 
-== TODO
+TODO
+==
 
 * Share common less with nugbase-web
 
