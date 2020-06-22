@@ -1,0 +1,57 @@
+{
+    "flower root": {
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56",
+        "Andrei 2": "0x654a855e48f6943966788b81dc739117c5bff6a1"
+    },
+    "minters": {
+        "Minter 1": "0xb1ee46e9729fed467cf9a4e346b62c958c59b5ef",
+        "Minter 2": "0x3b143d935351c384944263e3740c6cd286235b26",
+        "Minter 3": "0x7975341c94bdcff09c76f7e645a999fd92f85833",
+        "Dropper 1": "0x2bEa56e7d81369A97fe09219b2734956BE995880",
+        "Dropper 2": "0x3Cc51dC9F2700D9CB7a355CbD491E447B9e335A2",
+        "Dropper Test": "0x42d2a810C2d274b9Ea805dee36F8D5ed6ae06E4D",
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56",
+        "Nik":    "0xc1d622d588b92d2f7553c6fe66b1ce6c52ec36f9",
+        "Bruno": "0xd687e152b7865af3116c6cea04bc0d87761680a3",
+        "Daniel": "0x206cADc6F2493c4082d029D6abC5a884708CCAf5",
+        "Pyrrhic": "0xf717968Db6c254cC206bB9D953B74911652D2d17",
+        "Jon": "0xCb4cd6403A898D29Ed49FF5c7d625DAa9326A8fc"
+    },
+    "flower withdrawers": {
+        "Andrei": "0x654a855e48f6943966788b81dc739117c5bff6a1"
+    },
+
+    "store root": {
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56"
+    },
+    "store": {
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56",
+        "Andrei 2": "0x654a855e48f6943966788b81dc739117c5bff6a1",
+        "Nik":    "0xc1d622d588b92d2f7553c6fe66b1ce6c52ec36f9",
+        "Bruno": "0xd687e152b7865af3116c6cea04bc0d87761680a3",
+        "Daniel": "0x206cADc6F2493c4082d029D6abC5a884708CCAf5",
+        "Pyrrhic": "0xf717968Db6c254cC206bB9D953B74911652D2d17",
+        "Jon": "0xCb4cd6403A898D29Ed49FF5c7d625DAa9326A8fc"
+    },
+    "seed root": {
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56"
+    },
+    "breed fee": {
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56",
+        "Andrei 2": "0x654a855e48f6943966788b81dc739117c5bff6a1"
+    },
+    "game": {
+        "Minter 1": "0xb1ee46e9729fed467cf9a4e346b62c958c59b5ef"
+    },
+    "staff general": {
+        "Andrei": "0xe633600057703a63061b0db9d3b747eb4b608f56",
+        "Nik":    "0xc1d622d588b92d2f7553c6fe66b1ce6c52ec36f9",
+        "Bruno": "0xd687e152b7865af3116c6cea04bc0d87761680a3",
+        "Daniel": "0x206cADc6F2493c4082d029D6abC5a884708CCAf5",
+        "Kathleen": "0x65F407F2C434c898741b3a91c2ef4E7f19b5278A",
+        "Ramzi": "0x1c9b8F01231DDECC06e9Fcd092015fE9Cf221979",
+        "Pyrrhic": "0xf717968Db6c254cC206bB9D953B74911652D2d17",
+        "Jon": "0xCb4cd6403A898D29Ed49FF5c7d625DAa9326A8fc",
+        "Jon (Old)": "0xaC837Cc0544e6a5E80B67eF470cbC2818E1a4B22"
+    }
+}

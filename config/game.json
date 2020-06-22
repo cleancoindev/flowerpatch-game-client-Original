@@ -1,0 +1,43 @@
+{
+    "tick": {
+        "tickSpeedSeconds": 5.0,
+        "tillDecayTimeMinutes": 2.0,
+        "tillDecayRandomRangeMinutes": 2.0,
+        "flowerMaxGrowthTimeMinutes": 80.0,
+        "flowerBaseGrowthTimeMinutes": 8.0,
+        "presentsMax": 0.0,
+        "presentsSpawnTimeMinutes": 90.0,
+        "presentsSpawnRandomRangeMinutes": 240.0
+    },
+    "regions": [
+        {"iris" :            {"left" : "8%",  "top" : "6%"}},
+        {"frozen fields" :   {"left" : "37%", "top" : "9%"}},
+        {"lazy lake" :       {"left" : "50%", "top" : "25%"}},
+        {"misty meadows" :   {"left" : "12%", "top" : "36%"}},
+        {"molten mountain" : {"left" : "37%", "top" : "50%"}},
+        {"icy island" :      {"left" : "5%",  "top" : "89%"}},
+        {"golden grove" :    {"left" : "60%", "top" : "75%"}},
+        {"sandy shores" :    {"left" : "18%", "top" : "78%"}}
+    ],
+    "tools": [
+        { "name": "hand",          "graphic": "glove.svg",         "tip": "Inspect" },
+        { "name": "trowel",        "graphic": "trowel.svg",        "tip": "Till Land" },
+        { "name": "plant",         "graphic": "plant-1.svg",       "tip": "Plant" },
+        { "name": "watering-can",  "graphic": "watering-can.svg",  "tip": "Water" },
+        { "name": "shears",        "graphic": "shears.svg",        "tip": "Remove" }
+    ],
+    "tile": {
+        "size": 128,
+        "scale": 0.5
+    },
+    "nonBlockingToppers": [
+        "reeds",
+        "small rock",
+        "pumpkin",
+        "lantern",
+        "snow"
+    ],
+    "interactableToppers": [
+        "present"
+    ]
+}
