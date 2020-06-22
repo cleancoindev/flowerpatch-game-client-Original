@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package protobuf;
+
+enum ItemType {
+    HEMP = 0;
+    OIL = 1;
+    CRYSTAL = 2;
+
+    LAND_ICE = 3;
+}
+
+// Needed to for rpcs
+message ItemTypeRequest {
+    string source_account = 1;
+    ItemType type = 2;
+}
+
+message InventoryItem {
+    string owner = 1;
+    ItemType type = 2;
+    int64 quantity = 3;
+}
+
+message Inventory {
+    repeated InventoryItem items = 1;
+}

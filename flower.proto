@@ -1,0 +1,214 @@
+syntax = "proto3";
+
+package protobuf;
+
+message Flower {
+    string name = 1;                // full card name text
+    enum Version {
+        VERSION_ONE = 0;
+    }
+    Version version = 2;            // card revision (for breaking changes)
+    int64 description_id = 3;       // database ID of description
+    int64 unique_id = 4;            // card is "unique" (special appearance)
+    int64 store_db_id = 5;          // store database ID if purchased
+    int64 parent_one_id = 6;        // token ID of first parent (ETH)
+    int64 parent_two_id = 7;        // token ID of second parent (ETH)
+    int64 created_after_block = 8;  // ETH block number
+
+    message Stats {
+        // ---------------------------
+        // CORE RARITY STATS (NUMERIC)
+        // ---------------------------
+
+        int32 mutability = 100;
+        int32 growth_speed = 101;
+        int32 harvest_size = 102;
+        int32 harvest_spread = 103;
+
+        // --------------------
+        // DROP RATES (NUMERIC)
+        // --------------------
+
+        int32 seed_drop = 200;
+        int32 berry_drop = 201;
+        int32 flower_drop = 202;
+        int32 nug_drop = 203;
+
+        // -------------------------
+        // MISC ATTRIBUTES (NUMERIC)
+        // -------------------------
+
+        int32 height = 300;
+        int32 thc = 301;
+        int32 cbd = 302;
+
+        int32 smell_primary_strength = 303;
+        int32 smell_secondary_strength = 304;
+
+        int32 base_nug_scale = 305;
+        int32 main_leaf_scale = 306;
+        int32 nug_leaf_scale = 307;
+        int32 stem_scale = 308;
+
+        // --------------------------
+        // FEATURE COLORS (COLOR HEX)
+        // --------------------------
+
+        string base_nug_color = 400;
+        string leaf_color = 401;
+        string stem_color = 402;
+        string powder_color = 403;
+
+        // ----------------------------
+        // FEATURE TYPE OPTIONS (ENUMS)
+        // ----------------------------
+
+        enum SkeletonType {
+            THREE_LEAF = 0;
+        }
+
+        SkeletonType skeleton_type = 500;
+
+        enum BaseNugType {
+            NUG_BASE_BASIC = 0;
+            NUG_BASE_EGGPLANT = 1;
+            NUG_BASE_HAIRY = 2;
+            NUG_BASE_LUMP = 3;
+            NUG_BASE_MELLOW = 4;
+            NUG_BASE_ONION = 5;
+        }
+
+        BaseNugType base_nug_type = 501;
+
+        enum PowderType {
+            BASIC_CONFIG_1 = 0;
+            BASIC_CONFIG_2 = 1;
+            EGGPLANT_CONFIG_1 = 2;
+            HAIRY_CONFIG_1 = 3;
+            LUMP_CONFIG_1 = 4;
+            MELLOW_CONFIG_1 = 5;
+            ONION_CONFIG_1 = 6;
+        }
+
+        PowderType powder_type = 502;
+
+        enum StemType {
+            STEM_1 = 0;
+            STEM_2 = 1;
+            STEM_3 = 2;
+            STEM_4 = 3;
+            STEM_5 = 4;
+            STEM_6 = 5;
+            STEM_7 = 6;
+        }
+
+        StemType stem_type = 503;
+
+        enum MainLeafType {
+            BASE_LEAF_1 = 0;
+            BASE_LEAF_2 = 1;
+            BASE_LEAF_3 = 2;
+            BASE_LEAF_4 = 3;
+            BASE_LEAF_5 = 4;
+            BASE_LEAF_6 = 5;
+        }
+
+        MainLeafType main_leaf_type = 504;
+
+        enum NugLeafType {
+            NUG_LEAF_1 = 0;
+            NUG_LEAF_2 = 1;
+            NUG_LEAF_3 = 2;
+            NUG_LEAF_4 = 3;
+            NUG_LEAF_5 = 4;
+            NUG_LEAF_6 = 5;
+        }
+
+        NugLeafType nug_leaf_type = 505;
+
+        enum BodyType {
+            SATIVA = 0;
+            INDICA = 1;
+            RUDERALIS = 2;
+        }
+
+        BodyType body_type = 506;
+
+        // --------------------------
+        // MISC TYPED OPTIONS (ENUMS)
+        // --------------------------
+
+        enum Set {
+            NONE = 0;
+            GENESIS = 1;
+            CRYPTO = 2;
+            CLASSICS = 3;
+            ANCIENT = 4;
+            FOUR_TWENTY = 5;
+            DELTA = 6;
+        }
+
+        Set set = 600;
+
+        enum LandAffinity {
+            SOIL = 0;
+            STONE = 1;
+            SAND = 2;
+            LAVA = 3;
+            WATER = 4;
+            ICE = 5;
+        }
+
+        LandAffinity land_affinity = 601;
+
+        enum LandVariant {
+            LAND_VARIANT_NONE = 0;
+        }
+
+        LandVariant land_variant = 602;
+
+        enum IdleAnimation {
+            IDLE = 0;
+        }
+
+        IdleAnimation idle_animation = 603;
+
+        enum ParticleAlgorithm {
+            PARTICLE_NONE = 0;
+            POWDER_NUG = 1;
+            HALO = 2;
+            HEART_RAIN = 3;
+            BROKEN_HEART_RAIN = 4;
+            CANNABIS_RAIN = 5;
+            LAZERS = 6;
+            HAZE = 7;
+            FIRE = 8;
+            BUBBLE = 9;
+            INCANTATION = 10;
+            ALPHA_PARTICLE = 11;
+            BETA_PARTICLE = 12;
+            GAMMA_PARTICLE = 13;
+            DELTA_PARTICLE = 14;
+            CANNABIS_INCANTATION = 15;
+            CANNABIS_LAZERS = 16;
+        }
+
+        ParticleAlgorithm particle_algorithm = 604;
+
+        enum Smell {
+            CITRUS = 0;
+            FLORAL = 1;
+            SKUNK = 2;
+            EARTH = 3;
+            CHEESE = 4;
+            SMOKE = 5;
+            PINE = 6;
+            FRUIT = 7;
+        }
+
+        Smell smell_primary = 605;
+        Smell smell_secondary = 606;
+    }
+
+    Stats stats = 15;
+}
