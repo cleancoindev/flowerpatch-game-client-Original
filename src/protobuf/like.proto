@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package protobuf;
+
+// Database key is ID
+message Like {
+    int64 likes = 1;
+
+    enum Type {
+        MARKET = 0;
+        ETHEREUM = 1;
+    }
+    Type type = 2;
+}

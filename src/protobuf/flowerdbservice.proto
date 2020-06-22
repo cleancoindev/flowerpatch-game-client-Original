@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+package protobuf;
+
+import "protobuf/flower.proto";
+import "protobuf/servicecommon.proto";
+import "protobuf/rarityleaderboard.proto";
+
+service FlowerDB {
+  rpc GetFlower (SingleInt64) returns (Flower) {}
+  rpc GetAccountStats (SingleString) returns (AccountStats) {}
+  rpc FindFlower (FlowerQuery) returns (RepeatedInt64) {}
+}
+
+message AccountStats {
+    RarityLeaderboard rarity_breakdown = 1;
+    uint32 num_breeds = 2;
+}
+
+message FlowerQuery {
+    enum RarityTier {
+        ANY_RARITY = 0;
+        COMMON = 1;
+        UNUSUAL = 2;
+        RARE = 3;
+        EPIC = 4;
+        LEGENDARY = 5;
+    }
+
+    enum LandAffinity {
+        ANY_LAND = 0;
+        SOIL = 1;
+        STONE = 2;
+        SAND = 3;
+        LAVA = 4;
+        WATER = 5;
+        ICE = 6;
+    }
+
+    enum Planted {
+        ANY_PLANTED = 0;
+        PLANTED = 1;
+        NOT_PLANTED = 2;
+    }
+
+    message Filters {
+        RarityTier rarity_tier = 100;
+        LandAffinity land_affinity = 101;
+        Planted planted = 102;
+    }
+
+    enum SortBy {
+        AGE = 0;
+        RARITY = 1;
+        GROWTH_SPEED = 2;
+        HARVEST_SIZE = 3;
+    }
+
+    enum SortOrder {
+        DESCENDING = 0;
+        ASCENDING = 1;
+    }
+
+    message Sorting {
+        SortBy sort_by = 200;
+        SortOrder sort_order = 201;
+    }
+
+    string account = 1;
+    Filters filters = 2;
+    Sorting sorting = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protobuf;
+
+message RarityLeaderboard {
+    string owner = 1;
+    int32 total = 2;
+    int32 common = 3;
+    int32 unusual = 4;
+    int32 rare = 5;
+    int32 epic = 6;
+    int32 legendary = 7;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protobuf;
+
+// Database key is eth address
+message UserInfo {
+    string name = 1;
+    string email = 2;
+    string bio = 3;
+    string profile = 4;
+    string homepage = 5;
+}
