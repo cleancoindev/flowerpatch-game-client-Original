@@ -1,0 +1,13 @@
+{
+  "urls": [
+    "/gamedata/Sounds/output/Ambience.ogg",
+    "/gamedata/Sounds/output/Ambience.webm",
+    "/gamedata/Sounds/output/Ambience.mp3"
+  ],
+  "sprite": {
+    "ForestMorningBirds": [
+      0,
+      133978.68480725624
+    ]
+  }
+}

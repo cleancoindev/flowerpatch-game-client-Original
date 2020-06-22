@@ -1,0 +1,13 @@
+{
+  "urls": [
+    "/gamedata/Sounds/output/Music.ogg",
+    "/gamedata/Sounds/output/Music.webm",
+    "/gamedata/Sounds/output/Music.mp3"
+  ],
+  "sprite": {
+    "nuggie-winter": [
+      0,
+      251586.21315192743
+    ]
+  }
+}

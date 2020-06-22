@@ -1,0 +1,285 @@
+{
+    "SubTexture": [
+        {
+            "height": 118,
+            "name": "stem-4",
+            "width": 114,
+            "x": 836,
+            "y": 540
+        },
+        {
+            "height": 118,
+            "name": "stem-3",
+            "width": 114,
+            "x": 675,
+            "y": 606
+        },
+        {
+            "height": 118,
+            "name": "stem-1",
+            "width": 114,
+            "x": 836,
+            "y": 420
+        },
+        {
+            "height": 118,
+            "name": "stem-7",
+            "width": 114,
+            "x": 859,
+            "y": 121
+        },
+        {
+            "height": 118,
+            "name": "stem-5",
+            "width": 114,
+            "x": 791,
+            "y": 660
+        },
+        {
+            "height": 118,
+            "name": "stem-2",
+            "width": 114,
+            "x": 859,
+            "y": 1
+        },
+        {
+            "height": 118,
+            "name": "stem-6",
+            "width": 114,
+            "x": 559,
+            "y": 606
+        },
+        {
+            "frameHeight": 310,
+            "frameWidth": 310,
+            "frameX": 0,
+            "frameY": -17,
+            "height": 286,
+            "name": "nug-base-hairy",
+            "width": 310,
+            "x": 1,
+            "y": 1
+        },
+        {
+            "frameHeight": 310,
+            "frameWidth": 260,
+            "frameX": -2,
+            "frameY": -8,
+            "height": 300,
+            "name": "nug-base-lump",
+            "width": 257,
+            "x": 600,
+            "y": 1
+        },
+        {
+            "frameHeight": 310,
+            "frameWidth": 310,
+            "frameX": -11,
+            "frameY": -5,
+            "height": 301,
+            "name": "nug-base-mellow",
+            "width": 285,
+            "x": 313,
+            "y": 1
+        },
+        {
+            "frameHeight": 310,
+            "frameWidth": 310,
+            "frameX": -35,
+            "frameY": -3,
+            "height": 301,
+            "name": "nug-base-eggplant",
+            "width": 234,
+            "x": 600,
+            "y": 303
+        },
+        {
+            "frameHeight": 310,
+            "frameWidth": 310,
+            "frameX": -18,
+            "frameY": -15,
+            "height": 290,
+            "name": "nug-base-onion",
+            "width": 275,
+            "x": 1,
+            "y": 601
+        },
+        {
+            "height": 310,
+            "name": "nug-base-basic",
+            "width": 260,
+            "x": 1,
+            "y": 289
+        },
+        {
+            "height": 26,
+            "name": "nug-powder-1",
+            "width": 73,
+            "x": 244,
+            "y": 988
+        },
+        {
+            "frameHeight": 73,
+            "frameWidth": 73,
+            "frameX": -10,
+            "frameY": -14,
+            "height": 39,
+            "name": "nug-powder-4",
+            "width": 54,
+            "x": 922,
+            "y": 241
+        },
+        {
+            "frameHeight": 73,
+            "frameWidth": 73,
+            "frameX": -7,
+            "frameY": -2,
+            "height": 42,
+            "name": "nug-powder-2",
+            "width": 61,
+            "x": 859,
+            "y": 241
+        },
+        {
+            "frameHeight": 73,
+            "frameWidth": 73,
+            "frameX": -20,
+            "frameY": -19,
+            "height": 33,
+            "name": "nug-powder-6",
+            "width": 28,
+            "x": 791,
+            "y": 606
+        },
+        {
+            "frameHeight": 73,
+            "frameWidth": 73,
+            "frameX": -13,
+            "frameY": -2,
+            "height": 66,
+            "name": "nug-powder-3",
+            "width": 47,
+            "x": 907,
+            "y": 660
+        },
+        {
+            "frameHeight": 73,
+            "frameWidth": 73,
+            "frameX": -6,
+            "frameY": -5,
+            "height": 67,
+            "name": "nug-powder-5",
+            "width": 60,
+            "x": 682,
+            "y": 726
+        },
+        {
+            "frameHeight": 122,
+            "frameWidth": 123,
+            "frameX": 0,
+            "frameY": -7,
+            "height": 115,
+            "name": "base-leaf-5",
+            "width": 117,
+            "x": 836,
+            "y": 303
+        },
+        {
+            "height": 121,
+            "name": "base-leaf-3",
+            "width": 121,
+            "x": 278,
+            "y": 747
+        },
+        {
+            "height": 107,
+            "name": "base-leaf-1",
+            "width": 121,
+            "x": 559,
+            "y": 726
+        },
+        {
+            "frameHeight": 129,
+            "frameWidth": 121,
+            "frameX": 0,
+            "frameY": -16,
+            "height": 113,
+            "name": "base-leaf-6",
+            "width": 121,
+            "x": 121,
+            "y": 893
+        },
+        {
+            "frameHeight": 121,
+            "frameWidth": 122,
+            "frameX": 0,
+            "frameY": -2,
+            "height": 118,
+            "name": "base-leaf-2",
+            "width": 118,
+            "x": 1,
+            "y": 893
+        },
+        {
+            "frameHeight": 124,
+            "frameWidth": 130,
+            "frameX": 0,
+            "frameY": -8,
+            "height": 116,
+            "name": "base-leaf-4",
+            "width": 121,
+            "x": 278,
+            "y": 870
+        },
+        {
+            "height": 149,
+            "name": "nug-leaf-3",
+            "width": 142,
+            "x": 425,
+            "y": 453
+        },
+        {
+            "height": 144,
+            "name": "nug-leaf-4",
+            "width": 144,
+            "x": 278,
+            "y": 601
+        },
+        {
+            "height": 147,
+            "name": "nug-leaf-1",
+            "width": 144,
+            "x": 425,
+            "y": 304
+        },
+        {
+            "height": 150,
+            "name": "nug-leaf-5",
+            "width": 160,
+            "x": 263,
+            "y": 304
+        },
+        {
+            "height": 143,
+            "name": "nug-leaf-6",
+            "width": 148,
+            "x": 263,
+            "y": 456
+        },
+        {
+            "frameHeight": 144,
+            "frameWidth": 144,
+            "frameX": -6,
+            "frameY": 0,
+            "height": 144,
+            "name": "nug-leaf-2",
+            "width": 133,
+            "x": 424,
+            "y": 604
+        }
+    ],
+    "height": 1024,
+    "imagePath": "Nug_tex.png",
+    "name": "Nug",
+    "width": 1024
+}
