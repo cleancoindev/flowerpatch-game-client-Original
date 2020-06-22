@@ -1,0 +1,3022 @@
+{
+    "armature": [
+        {
+            "aabb": {
+                "height": 403.74,
+                "width": 310,
+                "x": -155.17,
+                "y": -320.42
+            },
+            "animation": [
+                {
+                    "bone": [
+                        {
+                            "name": "root",
+                            "rotateFrame": [
+                                {
+                                    "duration": 190,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 278,
+                                    "rotate": -0.49,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 108,
+                                    "rotate": 0.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 196,
+                                    "rotate": 1.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 258,
+                                    "rotate": 2.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": 1.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 72,
+                                    "rotate": -0.29,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nug",
+                            "rotateFrame": [
+                                {
+                                    "duration": 214,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 136,
+                                    "rotate": -3.93,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 70,
+                                    "rotate": -0.1,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 184,
+                                    "rotate": -5.92,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 91,
+                                    "rotate": 2.46,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 6,
+                                    "rotate": -2.15,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 8,
+                                    "rotate": -4.03,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 9,
+                                    "rotate": -2.39,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "rotate": -3.53,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "rotate": -2.6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 7,
+                                    "rotate": -4.03,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 4,
+                                    "rotate": -2.6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 5,
+                                    "rotate": -2,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 192,
+                                    "rotate": -4.63,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 114,
+                                    "rotate": 4.69,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": -9.44,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": 4.08,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 230,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 216,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 292,
+                                    "tweenEasing": 0,
+                                    "y": 1.02
+                                },
+                                {
+                                    "duration": 462,
+                                    "tweenEasing": 0,
+                                    "y": 0.94
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "translateFrame": [
+                                {
+                                    "duration": 699
+                                },
+                                {
+                                    "duration": 8,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0,
+                                    "x": -4
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "x": 2.73
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "x": -3.25
+                                },
+                                {
+                                    "duration": 7,
+                                    "tweenEasing": 0,
+                                    "x": 2.44
+                                },
+                                {
+                                    "duration": 8,
+                                    "tweenEasing": 0,
+                                    "x": -2.72
+                                },
+                                {
+                                    "duration": 5,
+                                    "tweenEasing": 0,
+                                    "x": 2.43
+                                },
+                                {
+                                    "duration": 6,
+                                    "tweenEasing": 0,
+                                    "x": -2.17
+                                },
+                                {
+                                    "duration": 444
+                                }
+                            ]
+                        },
+                        {
+                            "name": "leaf-handle",
+                            "rotateFrame": [
+                                {
+                                    "duration": 214,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 136,
+                                    "rotate": -4,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 70,
+                                    "rotate": -0.67,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 184,
+                                    "rotate": -8.99,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 132,
+                                    "rotate": 2.89,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 8,
+                                    "rotate": -6.07,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 192,
+                                    "rotate": -8.2,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 114,
+                                    "rotate": 2.62,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": -9.01,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": 6.01,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "right-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 221,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "rotate": 1.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 107,
+                                    "rotate": 4.03,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 31,
+                                    "rotate": 2.68,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 181,
+                                    "rotate": -3.7,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 26,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 17,
+                                    "rotate": 4.19,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 26,
+                                    "rotate": 5.53,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 121,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 130,
+                                    "rotate": 3.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 148,
+                                    "rotate": -1.91,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 45,
+                                    "rotate": 0.06,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "left-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 221,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "rotate": -1.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 107,
+                                    "rotate": 2.96,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 31,
+                                    "rotate": -2.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 192,
+                                    "rotate": -3.65,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 14,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": -5.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 113,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 130,
+                                    "rotate": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 148,
+                                    "rotate": -2.43,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 45,
+                                    "rotate": -4.56,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "center-leaf",
+                            "scaleFrame": [
+                                {
+                                    "duration": 238,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 216,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 224,
+                                    "tweenEasing": 0,
+                                    "y": 1.02
+                                },
+                                {
+                                    "duration": 27,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 28,
+                                    "tweenEasing": 0,
+                                    "y": 0.92
+                                },
+                                {
+                                    "duration": 457,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "duration": 1200,
+                    "name": "idle",
+                    "playTimes": 0
+                },
+                {
+                    "bone": [
+                        {
+                            "name": "root",
+                            "scaleFrame": [
+                                {
+                                    "duration": 15,
+                                    "tweenEasing": 0,
+                                    "x": 0.9,
+                                    "y": 0.9
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "right-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 15,
+                                    "rotate": -12.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "left-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 15,
+                                    "rotate": 12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "duration": 15,
+                    "name": "spawn",
+                    "playTimes": 0
+                },
+                {
+                    "bone": [
+                        {
+                            "name": "root",
+                            "rotateFrame": [
+                                {
+                                    "duration": 468,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 296,
+                                    "rotate": 2.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 266,
+                                    "rotate": 8.59,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": 4.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 72,
+                                    "rotate": -0.29,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "translateFrame": [
+                                {
+                                    "duration": 764,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 436,
+                                    "tweenEasing": 0,
+                                    "x": 14.7
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nug",
+                            "rotateFrame": [
+                                {
+                                    "duration": 214,
+                                    "rotate": 23.97,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 16,
+                                    "rotate": 19.07,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 120,
+                                    "rotate": 15.17,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 70,
+                                    "rotate": 19.9,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 184,
+                                    "rotate": 17.58,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 128,
+                                    "rotate": 23.46,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 204,
+                                    "rotate": 12.23,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 114,
+                                    "rotate": 4.69,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": 22.06,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": 23.08,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 23.97
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 230,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 216,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 292,
+                                    "tweenEasing": 0,
+                                    "y": 1.02
+                                },
+                                {
+                                    "duration": 462,
+                                    "tweenEasing": 0,
+                                    "y": 0.94
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "leaf-handle",
+                            "rotateFrame": [
+                                {
+                                    "duration": 24,
+                                    "rotate": 19,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 190,
+                                    "rotate": 14.44,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 136,
+                                    "rotate": 14,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 70,
+                                    "rotate": 9.83,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 184,
+                                    "rotate": 12.01,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 132,
+                                    "rotate": 13.89,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 200,
+                                    "rotate": 13.43,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 114,
+                                    "rotate": -1.88,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": 13.99,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": 14.51,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": 18
+                                }
+                            ]
+                        },
+                        {
+                            "name": "right-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 221,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "rotate": 1.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 107,
+                                    "rotate": 4.03,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 31,
+                                    "rotate": 2.68,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 181,
+                                    "rotate": -3.7,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 26,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 17,
+                                    "rotate": 4.19,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 26,
+                                    "rotate": 5.53,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 121,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 130,
+                                    "rotate": 3.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 148,
+                                    "rotate": -1.91,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 45,
+                                    "rotate": 0.06,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 704
+                                },
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 30,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 457
+                                }
+                            ]
+                        },
+                        {
+                            "name": "left-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 221,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "rotate": -1.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 107,
+                                    "rotate": 2.96,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 31,
+                                    "rotate": -2.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 192,
+                                    "rotate": -3.65,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 14,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": -5.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 113,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 130,
+                                    "rotate": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 148,
+                                    "rotate": -2.43,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 45,
+                                    "rotate": -4.56,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 704
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 24,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 462
+                                }
+                            ]
+                        },
+                        {
+                            "name": "center-leaf",
+                            "scaleFrame": [
+                                {
+                                    "duration": 238,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 216,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 224,
+                                    "tweenEasing": 0,
+                                    "y": 1.02
+                                },
+                                {
+                                    "duration": 27,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 28,
+                                    "tweenEasing": 0,
+                                    "y": 0.92
+                                },
+                                {
+                                    "duration": 457,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "duration": 1200,
+                    "name": "lean-right",
+                    "playTimes": 0
+                },
+                {
+                    "bone": [
+                        {
+                            "name": "root",
+                            "rotateFrame": [
+                                {
+                                    "duration": 190,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 278,
+                                    "rotate": -1.29,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 108,
+                                    "rotate": -1.29,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 196,
+                                    "rotate": -0.29,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 258,
+                                    "rotate": 3.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": 4.71,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 72,
+                                    "rotate": -0.29,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "translateFrame": [
+                                {
+                                    "duration": 730,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 470,
+                                    "tweenEasing": 0,
+                                    "x": -4.23
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "nug",
+                            "rotateFrame": [
+                                {
+                                    "duration": 214,
+                                    "rotate": -11.03,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 136,
+                                    "rotate": -14.93,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 70,
+                                    "rotate": -15.1,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 184,
+                                    "rotate": -8.42,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 134,
+                                    "rotate": -25.04,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 198,
+                                    "rotate": -13.12,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 114,
+                                    "rotate": -17.81,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": -22.44,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": -2.42,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": -11.03
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 230,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 216,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 292,
+                                    "tweenEasing": 0,
+                                    "y": 1.02
+                                },
+                                {
+                                    "duration": 462,
+                                    "tweenEasing": 0,
+                                    "y": 0.94
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "leaf-handle",
+                            "rotateFrame": [
+                                {
+                                    "duration": 214,
+                                    "rotate": -13.1,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 136,
+                                    "rotate": -13.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 70,
+                                    "rotate": -12.67,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 184,
+                                    "rotate": -13.99,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 132,
+                                    "rotate": -13.1,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 200,
+                                    "rotate": -15.1,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 114,
+                                    "rotate": -11.38,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 98,
+                                    "rotate": -14.51,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": -4.99,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "rotate": -13.1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "right-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 221,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "rotate": 1.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 107,
+                                    "rotate": 4.03,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 31,
+                                    "rotate": 2.68,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 181,
+                                    "rotate": -3.7,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 26,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 17,
+                                    "rotate": 4.19,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 26,
+                                    "rotate": 5.53,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 121,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 130,
+                                    "rotate": 3.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 148,
+                                    "rotate": -1.91,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 45,
+                                    "rotate": 0.06,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 704
+                                },
+                                {
+                                    "duration": 9,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 30,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 457
+                                }
+                            ]
+                        },
+                        {
+                            "name": "left-leaf",
+                            "rotateFrame": [
+                                {
+                                    "duration": 221,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 147,
+                                    "rotate": -1.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 107,
+                                    "rotate": 2.96,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 31,
+                                    "rotate": -2.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 192,
+                                    "rotate": -3.65,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 14,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 52,
+                                    "rotate": -5.5,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 113,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 130,
+                                    "rotate": 6,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 148,
+                                    "rotate": -2.43,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 45,
+                                    "rotate": -4.56,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 704
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 24,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 462
+                                }
+                            ]
+                        },
+                        {
+                            "name": "center-leaf",
+                            "scaleFrame": [
+                                {
+                                    "duration": 238,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 216,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 224,
+                                    "tweenEasing": 0,
+                                    "y": 1.02
+                                },
+                                {
+                                    "duration": 27,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 10,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 28,
+                                    "tweenEasing": 0,
+                                    "y": 0.92
+                                },
+                                {
+                                    "duration": 457,
+                                    "tweenEasing": 0,
+                                    "y": 0.96
+                                },
+                                {
+                                    "duration": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "duration": 1200,
+                    "name": "lean-left",
+                    "playTimes": 0
+                }
+            ],
+            "bone": [
+                {
+                    "name": "root",
+                    "transform": {
+                        "skX": -2.7084,
+                        "skY": -2.7084
+                    }
+                },
+                {
+                    "length": 280,
+                    "name": "nug",
+                    "parent": "root",
+                    "transform": {
+                        "skX": -88.97,
+                        "skY": -88.97,
+                        "y": -28
+                    }
+                },
+                {
+                    "length": 17,
+                    "name": "leaf-handle",
+                    "parent": "root",
+                    "transform": {
+                        "skX": -86.8979,
+                        "skY": -86.8979,
+                        "y": -9.05
+                    }
+                },
+                {
+                    "length": 104,
+                    "name": "right-leaf",
+                    "parent": "leaf-handle",
+                    "transform": {
+                        "skX": 67.8809,
+                        "skY": 67.8809,
+                        "x": 15.25,
+                        "y": 10.5
+                    }
+                },
+                {
+                    "length": 104,
+                    "name": "left-leaf",
+                    "parent": "leaf-handle",
+                    "transform": {
+                        "skX": -75.6696,
+                        "skY": -75.6696,
+                        "x": 15.25,
+                        "y": -10.5
+                    }
+                },
+                {
+                    "name": "powder",
+                    "parent": "nug"
+                },
+                {
+                    "length": 60,
+                    "name": "center-leaf",
+                    "parent": "leaf-handle",
+                    "transform": {
+                        "skX": 1.8641,
+                        "skY": 1.8641,
+                        "x": 14.0392
+                    }
+                },
+                {
+                    "name": "basic-config-1",
+                    "parent": "powder"
+                },
+                {
+                    "name": "onion-config-1",
+                    "parent": "powder"
+                },
+                {
+                    "name": "hairy-config-1",
+                    "parent": "powder"
+                },
+                {
+                    "name": "eggplant-config-1",
+                    "parent": "powder"
+                },
+                {
+                    "name": "lump-config-1",
+                    "parent": "powder"
+                },
+                {
+                    "name": "mellow-config-1",
+                    "parent": "powder"
+                },
+                {
+                    "name": "basic-config-2",
+                    "parent": "powder"
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "idle"
+                }
+            ],
+            "frameRate": 60,
+            "name": "Armature",
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-4",
+                                    "transform": {
+                                        "scX": 1.5485,
+                                        "scY": 1.5485,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 178.66,
+                                        "y": 52.82
+                                    }
+                                }
+                            ],
+                            "name": "c2-powder5"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "stem-7",
+                                    "transform": {
+                                        "x": 1.81,
+                                        "y": 23.7
+                                    }
+                                },
+                                {
+                                    "name": "stem-6",
+                                    "transform": {
+                                        "x": 2.65,
+                                        "y": 23.47
+                                    }
+                                },
+                                {
+                                    "name": "stem-5",
+                                    "transform": {
+                                        "x": 3.44,
+                                        "y": 25.84
+                                    }
+                                },
+                                {
+                                    "name": "stem-4",
+                                    "transform": {
+                                        "x": 3.77,
+                                        "y": 24.53
+                                    }
+                                },
+                                {
+                                    "name": "stem-3",
+                                    "transform": {
+                                        "x": 3.68,
+                                        "y": 24.81
+                                    }
+                                },
+                                {
+                                    "name": "stem-2",
+                                    "transform": {
+                                        "x": 2.35,
+                                        "y": 23.99
+                                    }
+                                },
+                                {
+                                    "name": "stem-1",
+                                    "transform": {
+                                        "x": 1.56,
+                                        "y": 24.31
+                                    }
+                                }
+                            ],
+                            "name": "stem"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.6269,
+                                        "scY": 1.6269,
+                                        "skX": -106,
+                                        "skY": -106,
+                                        "x": 99.45,
+                                        "y": -12.12
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-6111"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "skX": 153.17,
+                                        "skY": 153.17,
+                                        "x": 237.76,
+                                        "y": 3.43
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-621"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 0.5858,
+                                        "scY": 0.5858,
+                                        "skX": -40.83,
+                                        "skY": -40.83,
+                                        "x": 256.13,
+                                        "y": -2.5
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-64"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.85,
+                                        "skX": 102.2,
+                                        "skY": 102.2,
+                                        "x": 165.64,
+                                        "y": 6.72
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder11"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-3",
+                                    "transform": {
+                                        "scX": 0.6986,
+                                        "scY": 0.6986,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 244.22,
+                                        "y": 21.36
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-32"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.2286,
+                                        "scY": 1.2286,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 188.79,
+                                        "y": 103.18
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-632"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.6269,
+                                        "scY": 1.6269,
+                                        "skX": -106,
+                                        "skY": -106,
+                                        "x": 100.53,
+                                        "y": -13.12
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-61"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-2",
+                                    "transform": {
+                                        "scX": 1.0509,
+                                        "scY": 1.0509,
+                                        "skX": 81.48,
+                                        "skY": 81.48,
+                                        "x": 247.3,
+                                        "y": -1.18
+                                    }
+                                }
+                            ],
+                            "name": "c2-powder6"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-base-basic",
+                                    "transform": {
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "x": 138.16,
+                                        "y": 1.35
+                                    }
+                                },
+                                {
+                                    "name": "nug-base-hairy",
+                                    "transform": {
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "x": 129.84,
+                                        "y": 5.54
+                                    }
+                                },
+                                {
+                                    "name": "nug-base-eggplant",
+                                    "transform": {
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "x": 132.89,
+                                        "y": 5.04
+                                    }
+                                },
+                                {
+                                    "name": "nug-base-onion",
+                                    "transform": {
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "x": 135.25,
+                                        "y": 5.13
+                                    }
+                                },
+                                {
+                                    "name": "nug-base-mellow",
+                                    "transform": {
+                                        "skX": 92.23,
+                                        "skY": 92.23,
+                                        "x": 133.61,
+                                        "y": 1.9
+                                    }
+                                },
+                                {
+                                    "name": "nug-base-lump",
+                                    "transform": {
+                                        "skX": 90,
+                                        "skY": 90,
+                                        "x": 136.61,
+                                        "y": 3.94
+                                    }
+                                }
+                            ],
+                            "name": "nug-base"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.8896,
+                                        "scY": 0.9718,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 155.75,
+                                        "y": 86.86
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.6269,
+                                        "scY": 1.6269,
+                                        "skX": -106,
+                                        "skY": -106,
+                                        "x": 119.02,
+                                        "y": -105.84
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-6112"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "skX": 153.17,
+                                        "skY": 153.17,
+                                        "x": 237.76,
+                                        "y": 3.43
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-62"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.6118,
+                                        "scY": 0.6118,
+                                        "skX": 64.17,
+                                        "skY": 64.17,
+                                        "x": 88.62,
+                                        "y": 88.75
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder211"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.6744,
+                                        "scY": 0.7977,
+                                        "skX": 115,
+                                        "skY": 115,
+                                        "x": 190.19,
+                                        "y": -44.42
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-12121"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.1553,
+                                        "scY": 1.1553,
+                                        "x": 210.45,
+                                        "y": 15.87
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-6211"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.9901,
+                                        "scY": 1.1546,
+                                        "skX": 76.66,
+                                        "skY": 76.66,
+                                        "x": 80.34,
+                                        "y": 83.4
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-113"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-4",
+                                    "transform": {
+                                        "scX": 1.5599,
+                                        "scY": 1.5599,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 85.4,
+                                        "y": -69.52
+                                    }
+                                }
+                            ],
+                            "name": "c2-powder4"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "skX": 153.17,
+                                        "skY": 153.17,
+                                        "x": 239.87,
+                                        "y": 6.87
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-6212"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.9459,
+                                        "scY": 0.9459,
+                                        "skX": 91.99,
+                                        "skY": 91.99,
+                                        "x": 107.98,
+                                        "y": -63.95
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder3"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.5785,
+                                        "scY": 0.5785,
+                                        "skX": 80,
+                                        "skY": 80,
+                                        "x": 104.92,
+                                        "y": 112.06
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-121"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 124.85,
+                                        "y": -3.79
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-65"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.58,
+                                        "scY": 0.6792,
+                                        "skX": 85.99,
+                                        "skY": 85.99,
+                                        "x": 146.61,
+                                        "y": -0.09
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder311"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-5",
+                                    "transform": {
+                                        "skX": 136.17,
+                                        "skY": 136.17,
+                                        "x": 89.74,
+                                        "y": -44.09
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-51"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": -1,
+                                        "scY": -1,
+                                        "skX": 180,
+                                        "skY": 180,
+                                        "x": 158.5,
+                                        "y": 111.26
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-6213"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.7331,
+                                        "scY": 0.7331,
+                                        "skX": 71,
+                                        "skY": 71,
+                                        "x": 200.7,
+                                        "y": 56.88
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-12"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-3",
+                                    "transform": {
+                                        "scX": 0.601,
+                                        "scY": 0.601,
+                                        "skX": 125.17,
+                                        "skY": 125.17,
+                                        "x": 151.08,
+                                        "y": 108.03
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-3"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.3045,
+                                        "scY": 1.3045,
+                                        "skX": 54,
+                                        "skY": 54,
+                                        "x": 154.11,
+                                        "y": 49.17
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-62111"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.5785,
+                                        "scY": 0.5785,
+                                        "skX": 120,
+                                        "skY": 120,
+                                        "x": 76.15,
+                                        "y": -80.54
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1211"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.1553,
+                                        "scY": 1.1553,
+                                        "x": 205.55,
+                                        "y": -107.49
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-62112"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 276.44,
+                                        "y": -0.14
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder12"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.9603,
+                                        "scY": 0.9603,
+                                        "skX": 79,
+                                        "skY": 79,
+                                        "x": 215.19,
+                                        "y": 3.77
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.9178,
+                                        "scY": 1.2913,
+                                        "skX": 82.17,
+                                        "skY": 82.17,
+                                        "x": 196.09,
+                                        "y": 57.05
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.8219,
+                                        "scY": 0.8257,
+                                        "skX": 88,
+                                        "skY": 88,
+                                        "x": 265.63,
+                                        "y": -15.48
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-122"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.8955,
+                                        "scY": 0.8955,
+                                        "skX": 118.66,
+                                        "skY": 118.66,
+                                        "x": 201.21,
+                                        "y": -41.77
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-112"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.9901,
+                                        "scY": 1.1546,
+                                        "skX": 63.66,
+                                        "skY": 63.66,
+                                        "x": 64.98,
+                                        "y": 38.13
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-11"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "base-leaf-6",
+                                    "transform": {
+                                        "skX": 13.82,
+                                        "skY": 13.82,
+                                        "x": 84.5,
+                                        "y": -16.88
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-5",
+                                    "transform": {
+                                        "skX": 16.97,
+                                        "skY": 16.97,
+                                        "x": 88.51,
+                                        "y": -10
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-4",
+                                    "transform": {
+                                        "skX": 16.67,
+                                        "skY": 16.67,
+                                        "x": 88.82,
+                                        "y": -8.84
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-3",
+                                    "transform": {
+                                        "skX": 16.94,
+                                        "skY": 16.94,
+                                        "x": 84.19,
+                                        "y": -8.56
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-2",
+                                    "transform": {
+                                        "skX": 13.33,
+                                        "skY": 13.33,
+                                        "x": 83.37,
+                                        "y": -9.25
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-1",
+                                    "transform": {
+                                        "skX": 17.02,
+                                        "skY": 17.02,
+                                        "x": 80.91,
+                                        "y": 1.13
+                                    }
+                                }
+                            ],
+                            "name": "right-leaf"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-4",
+                                    "transform": {
+                                        "scX": -1.3567,
+                                        "scY": 1.5485,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 205.04,
+                                        "y": -39.65
+                                    }
+                                }
+                            ],
+                            "name": "c2-powder1"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.8955,
+                                        "scY": 0.8955,
+                                        "skX": 106.66,
+                                        "skY": 106.66,
+                                        "x": 268.37,
+                                        "y": 29.88
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1121"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 1.149,
+                                        "scY": 1.149,
+                                        "skX": 120.47,
+                                        "skY": 120.47,
+                                        "x": 128.43,
+                                        "y": -70.47
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1111"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-3",
+                                    "transform": {
+                                        "scX": 0.65,
+                                        "scY": 0.65,
+                                        "skX": 63.17,
+                                        "skY": 63.17,
+                                        "x": 181.1,
+                                        "y": -67.96
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-31"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.3045,
+                                        "scY": 1.3045,
+                                        "skX": 180,
+                                        "skY": 180,
+                                        "x": 189.94,
+                                        "y": -42.36
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-621111"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.9726,
+                                        "scY": 1.149,
+                                        "skX": 100.47,
+                                        "skY": 100.47,
+                                        "x": 247.3,
+                                        "y": 69.47
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-111121"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.8493,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 227.78,
+                                        "y": -38.68
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder13"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "skX": 127.47,
+                                        "skY": 127.47,
+                                        "x": 135.96,
+                                        "y": -75.42
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-111"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "base-leaf-6",
+                                    "transform": {
+                                        "scY": -1,
+                                        "skX": -10.33,
+                                        "skY": -10.33,
+                                        "x": 81.81,
+                                        "y": 20.61
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-5",
+                                    "transform": {
+                                        "scY": -1,
+                                        "skX": -11.47,
+                                        "skY": -11.47,
+                                        "x": 81.07,
+                                        "y": 17.76
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-4",
+                                    "transform": {
+                                        "scY": -1,
+                                        "skX": -13.42,
+                                        "skY": -13.42,
+                                        "x": 81.87,
+                                        "y": 14.73
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-3",
+                                    "transform": {
+                                        "scY": -1,
+                                        "skX": -12.75,
+                                        "skY": -12.75,
+                                        "x": 79.05,
+                                        "y": 14.42
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-2",
+                                    "transform": {
+                                        "scY": -1,
+                                        "skX": -10.38,
+                                        "skY": -10.38,
+                                        "x": 75.85,
+                                        "y": 13.24
+                                    }
+                                },
+                                {
+                                    "name": "base-leaf-1",
+                                    "transform": {
+                                        "scY": -1,
+                                        "skX": -9.03,
+                                        "skY": -9.03,
+                                        "x": 74.32,
+                                        "y": 9.19
+                                    }
+                                }
+                            ],
+                            "name": "left-leaf"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-4",
+                                    "transform": {
+                                        "scX": 1.0047,
+                                        "scY": 1.1223,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 172.34,
+                                        "y": -88.75
+                                    }
+                                }
+                            ],
+                            "name": "c2-powder2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.5959,
+                                        "scY": 0.815,
+                                        "skX": 105.99,
+                                        "skY": 105.99,
+                                        "x": 263.49,
+                                        "y": 40.29
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1231"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.8151,
+                                        "scY": 0.7692,
+                                        "skX": 98.91,
+                                        "skY": 98.91,
+                                        "x": 247.91,
+                                        "y": -25.79
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-123"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-2",
+                                    "transform": {
+                                        "scX": 0.5763,
+                                        "scY": 0.5763,
+                                        "skX": 64.17,
+                                        "skY": 64.17,
+                                        "x": 221.93,
+                                        "y": -15.02
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-2"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.6118,
+                                        "scY": 0.6118,
+                                        "skX": 72.17,
+                                        "skY": 72.17,
+                                        "x": 92.73,
+                                        "y": -61.96
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder21"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 1.149,
+                                        "scY": 1.149,
+                                        "skX": 74.47,
+                                        "skY": 74.47,
+                                        "x": 85.55,
+                                        "y": 41.9
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-11111"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.2286,
+                                        "scY": 1.2286,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 107.7,
+                                        "y": 34.97
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-63"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.2286,
+                                        "scY": 1.2286,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 106.14,
+                                        "y": 21.38
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-6"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-leaf-6",
+                                    "transform": {
+                                        "scX": 0.9,
+                                        "scY": 0.9,
+                                        "skX": 85.8,
+                                        "skY": 85.8,
+                                        "x": 25.13,
+                                        "y": 2.12
+                                    }
+                                },
+                                {
+                                    "name": "nug-leaf-5",
+                                    "transform": {
+                                        "scX": 0.9,
+                                        "scY": 0.9,
+                                        "skX": 86.48,
+                                        "skY": 86.48,
+                                        "x": 27.86,
+                                        "y": 2.52
+                                    }
+                                },
+                                {
+                                    "name": "nug-leaf-4",
+                                    "transform": {
+                                        "scX": 0.9,
+                                        "scY": 0.9,
+                                        "skX": 85.63,
+                                        "skY": 85.63,
+                                        "x": 23.43,
+                                        "y": 3.04
+                                    }
+                                },
+                                {
+                                    "name": "nug-leaf-3",
+                                    "transform": {
+                                        "scX": 0.9,
+                                        "scY": 0.9,
+                                        "skX": 86.78,
+                                        "skY": 86.78,
+                                        "x": 27.86,
+                                        "y": 3.16
+                                    }
+                                },
+                                {
+                                    "name": "nug-leaf-2",
+                                    "transform": {
+                                        "skX": 86.72,
+                                        "skY": 86.72,
+                                        "x": 30.62,
+                                        "y": 2.92
+                                    }
+                                },
+                                {
+                                    "name": "nug-leaf-1",
+                                    "transform": {
+                                        "scX": 0.9,
+                                        "scY": 0.9,
+                                        "skX": 85.48,
+                                        "skY": 85.48,
+                                        "x": 26.65,
+                                        "y": 2.43
+                                    }
+                                }
+                            ],
+                            "name": "center-leaf"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": -0.6849,
+                                        "scY": 0.6792,
+                                        "skX": 104.99,
+                                        "skY": 104.99,
+                                        "x": 218.95,
+                                        "y": 42.47
+                                    }
+                                }
+                            ],
+                            "name": "c1-powder31"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.72,
+                                        "scY": 0.86,
+                                        "skX": 95.05,
+                                        "skY": 95.05,
+                                        "x": 267.65,
+                                        "y": -23.34
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1232"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-1",
+                                    "transform": {
+                                        "scX": 0.8955,
+                                        "scY": 0.8955,
+                                        "skX": 95.66,
+                                        "skY": 95.66,
+                                        "x": 244.38,
+                                        "y": -75.89
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-1122"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-5",
+                                    "transform": {
+                                        "scX": 0.5666,
+                                        "scY": 0.5666,
+                                        "skX": -10.83,
+                                        "skY": -10.83,
+                                        "x": 94.69,
+                                        "y": 42.81
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-5"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-4",
+                                    "transform": {
+                                        "scX": 1.3568,
+                                        "scY": 1.3568,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 135.94,
+                                        "y": 82.19
+                                    }
+                                }
+                            ],
+                            "name": "c2-powder3"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.2286,
+                                        "scY": 1.2286,
+                                        "skX": 92.17,
+                                        "skY": 92.17,
+                                        "x": 117.78,
+                                        "y": 25.16
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-631"
+                        },
+                        {
+                            "display": [
+                                {
+                                    "name": "nug-powder-6",
+                                    "transform": {
+                                        "scX": 1.6269,
+                                        "scY": 1.6269,
+                                        "skX": -106,
+                                        "skY": -106,
+                                        "x": 99.45,
+                                        "y": -12.12
+                                    }
+                                }
+                            ],
+                            "name": "nug-powder-611"
+                        }
+                    ]
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 3,
+                    "name": "stem",
+                    "parent": "root"
+                },
+                {
+                    "displayIndex": 2,
+                    "name": "nug-base",
+                    "parent": "nug"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder2",
+                    "parent": "basic-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder3",
+                    "parent": "basic-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 65
+                    },
+                    "name": "c1-powder1",
+                    "parent": "basic-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c2-powder1",
+                    "parent": "basic-config-2"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c2-powder2",
+                    "parent": "basic-config-2"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c2-powder3",
+                    "parent": "basic-config-2"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c2-powder5",
+                    "parent": "basic-config-2"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c2-powder6",
+                    "parent": "basic-config-2"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c2-powder4",
+                    "parent": "basic-config-2"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-1",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-11",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-111",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-6",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-61",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 95
+                    },
+                    "name": "nug-powder-62",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-12",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-112",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-1111",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-63",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-611",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-621",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-6211",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-121",
+                    "parent": "hairy-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-122",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-1121",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-11111",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "name": "nug-powder-631",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "name": "nug-powder-6111",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "name": "nug-powder-6212",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-62111",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-1211",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-621111",
+                    "parent": "eggplant-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder21",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder31",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder11",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder211",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder311",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "name": "nug-powder-3",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "name": "nug-powder-31",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "name": "nug-powder-2",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "name": "nug-powder-5",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "name": "nug-powder-64",
+                    "parent": "lump-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-113",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-65",
+                    "parent": "onion-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "c1-powder12",
+                    "parent": "basic-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "c1-powder13",
+                    "parent": "basic-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 72
+                    },
+                    "name": "nug-powder-123",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-1122",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-632",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-6112",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-6213",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 85
+                    },
+                    "name": "nug-powder-62112",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-111121",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 60
+                    },
+                    "name": "nug-powder-1231",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 65
+                    },
+                    "name": "nug-powder-1232",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-32",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 75
+                    },
+                    "name": "nug-powder-12121",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "color": {
+                        "aM": 65
+                    },
+                    "name": "nug-powder-51",
+                    "parent": "mellow-config-1"
+                },
+                {
+                    "displayIndex": 2,
+                    "name": "right-leaf",
+                    "parent": "right-leaf"
+                },
+                {
+                    "displayIndex": 2,
+                    "name": "left-leaf",
+                    "parent": "left-leaf"
+                },
+                {
+                    "name": "center-leaf",
+                    "parent": "center-leaf"
+                }
+            ],
+            "type": "Armature"
+        }
+    ],
+    "compatibleVersion": "5.5",
+    "frameRate": 60,
+    "name": "Nug",
+    "version": "5.5"
+}

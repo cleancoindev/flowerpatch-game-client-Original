@@ -1,0 +1,25 @@
+{
+  "urls": [
+    "/gamedata/Sounds/output/Effects.ogg",
+    "/gamedata/Sounds/output/Effects.webm",
+    "/gamedata/Sounds/output/Effects.mp3"
+  ],
+  "sprite": {
+    "click0": [
+      0,
+      11.179138321995465
+    ],
+    "click1": [
+      2000,
+      11.179138321995463
+    ],
+    "click2": [
+      4000,
+      11.179138321995907
+    ],
+    "click3": [
+      6000,
+      11.179138321995907
+    ]
+  }
+}
