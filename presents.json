@@ -1,0 +1,25 @@
+{
+    "supportedProjects": [ "Flowerpatch", "Tides of Magic", "Ethermon",
+        "Marble Cards" ],
+    "prizeDistribution": [
+        { "kind": "random_nft",      "chance": 1,   "prettyKind": "Random NFT" },
+        { "kind": "rare_flower",     "chance": 1,   "prettyKind": "Rare FLOWER" },
+        { "kind": "unusual_flower",  "chance": 10,  "prettyKind": "Unusual FLOWER" },
+        { "kind": "common_flower",   "chance": 40,  "prettyKind": "Common FLOWER" }
+    ],
+    "prizeCommons": [
+        5655374346584064, 5647975057457152, 5726966351134720,
+        5736741495373824, 5707651547660288, 5718746756808704,
+        5750704903815168, 5655957052850176
+    ],
+    "prizeUnusuals": [
+        5683780991844352, 5695708787113984, 5694034018304000,
+        5689540979195904, 6286656961249280, 5678677161410560,
+        5085025104035840
+    ],
+    "prizeRares": [
+        5751558595674112, 5726177821982720, 5726763346821120,
+        5718125026738176, 5668756323827712, 5155175073316864,
+        5650043017101312, 5738709764800512, 5755374237908992
+    ]
+}

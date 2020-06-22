@@ -1,0 +1,72 @@
+{
+    "brandColors": {
+        "green": "rgb(120,210,130)",
+        "blue": "rgb(65, 130, 193)",
+        "purple": "rgb(166,107,208)",
+        "light-grey": "rgb(239, 240, 241)",
+        "dark-grey": "rgb(0, 23, 59)",
+        "orange": "rgb(255, 190, 68)"
+    },
+    "rarityNames": [
+        "common",
+        "unusual",
+        "rare",
+        "epic",
+        "legendary"
+    ],
+    "rarityColors": {
+        "common": "#A0A0A0",
+        "unusual": "#67C171",
+        "rare": "#1999CF",
+        "epic": "#FF72D0",
+        "legendary": "#FFBE44"
+    },
+    "defaultAudioLevels": {
+        "music": 0.25,
+        "ambience": 0.5,
+        "effects": 1
+    },
+    "session": {
+        "loginMessage": "Flowerpatch Login"
+    },
+    "landDescriptions": {
+        "sand": "Known for having sand stuck in the buds, this resilient herb has long been loved by desert dwellers. Folktale has it that skilled craftsmen can refine the stalks into glowing glass.",
+        "soil": "A classic cannabis strain found in rich soil. Soil strains often have aromas of earth and pine, and their strong woody stalks are useful in crafting.",
+        "stone": "An especially hardy strain capable of growing directly on large stones and gravel. Stone strains are renowned for producing strangely rectangular pea pods, perfect for masonry.",
+        "water": "A delicate flower often found on the surface of pools and lakes. These amazing amphibious buds can be processed into a fine oil, used in cooking and gadget-making.",
+        "lava": "An uncommon heat-resistant bud capable of maintaining potency while growing near lava. Although difficult to cultivate, lava strains can produce metal rods, which are crucial for advanced gadget-making.",
+        "ice": "An uncommon cold-resistant bud capable of thriving in the harsh winter. Although ice strains can be slow to grow, they produce perfect crystals, ideal for advanced gadget-making."
+    },
+    "landTextColors": {
+        "sand": "#D9B056",
+        "soil": "#215A20",
+        "stone": "#727271",
+        "water": "#3E8BE2",
+        "lava": "#6C2020",
+        "ice": "#2C85A9"
+    },
+    "growthSpeedNames": [
+        "timid",
+        "plodding",
+        "passive",
+        "robust",
+        "outgoing",
+        "playful",
+        "energetic",
+        "wild",
+        "hyper",
+        "blazing"
+    ],
+    "harvestSizeNames": [
+        "desolate",
+        "barren",
+        "nude",
+        "lush",
+        "fruitful",
+        "plentiful",
+        "copious",
+        "abundant",
+        "bountiful",
+        "dank"
+    ]
+}

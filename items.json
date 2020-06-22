@@ -1,0 +1,10 @@
+{
+    "land_ice": {
+        "recipes": [
+            {
+                "crystal": 1,
+                "hemp": 10
+            }
+        ]
+    }
+}
