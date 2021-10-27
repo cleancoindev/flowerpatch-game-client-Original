@@ -1,0 +1,75 @@
+{ "columns":16,
+ "image":"Entities.png",
+ "imageheight":2048,
+ "imagewidth":2048,
+ "margin":0,
+ "name":"Entities",
+ "spacing":0,
+ "tilecount":256,
+ "tiledversion":"1.2.2",
+ "tileheight":128,
+ "tiles":[
+        {
+         "id":0,
+         "type":"sativa"
+        }, 
+        {
+         "id":1,
+         "type":"indica"
+        }, 
+        {
+         "id":2,
+         "type":"ruderalis"
+        }, 
+        {
+         "id":3,
+         "type":"growth stage 1"
+        }, 
+        {
+         "id":4,
+         "type":"growth stage 2"
+        }, 
+        {
+         "id":5,
+         "type":"growth stage 3"
+        }, 
+        {
+         "id":16,
+         "type":"sativa stem"
+        }, 
+        {
+         "id":17,
+         "type":"indica stem"
+        }, 
+        {
+         "id":18,
+         "type":"ruderalis stem"
+        }, 
+        {
+         "id":32,
+         "type":"sativa shadow"
+        }, 
+        {
+         "id":33,
+         "type":"indica shadow"
+        }, 
+        {
+         "id":34,
+         "type":"ruderalis shadow"
+        }, 
+        {
+         "id":48,
+         "type":"sativa nugs"
+        }, 
+        {
+         "id":49,
+         "type":"indica nugs"
+        }, 
+        {
+         "id":50,
+         "type":"ruderalis nugs"
+        }],
+ "tilewidth":128,
+ "type":"tileset",
+ "version":1.2
+}

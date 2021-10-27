@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package protobuf;
+
+message TokenInfo {
+    string contract_name = 1;
+    string name = 2;
+    string image_u_r_l = 3;
+    string link_u_r_l = 4;
+}

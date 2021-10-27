@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package protobuf;
+import "protobuf/flower.proto";
+
+// ============================================ //
+// DATABASE ENTRY RECORDING EXISTING ETHER-FLOWERS //
+// ============================================ //
+
+message EtherFlower {
+    int64 ID = 1;
+    string owner = 2;
+    int32 rarity = 3;
+    int32 rarityTier = 4;
+    Flower flowerData = 5;
+}

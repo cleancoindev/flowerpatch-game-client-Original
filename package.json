@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "http-server",
+    "dev": "webpack -d --watch",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -18,11 +19,24 @@
   },
   "homepage": "https://github.com/nugbase/flowerpatch-game-client#readme",
   "dependencies": {
+    "chroma-js": "^2.1.0",
     "css-loader": "^3.6.0",
+    "drizzle": "^1.2.5",
+    "drizzle-react": "^1.2.0",
+    "fscreen": "^1.0.2",
+    "google-protobuf": "^3.12.2",
+    "gsap": "^2.1.3",
+    "howler": "^2.1.2",
     "less-loader": "^6.1.1",
+    "nanoevents": "^2.0.0",
+    "pixi-cull": "^0.5.0",
+    "pixi-particles": "^4.1.2",
+    "pixi-viewport": "^3.4.1",
+    "pixi.js": "^4.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "style-loader": "^1.2.1"
+    "style-loader": "^1.2.1",
+    "url-parse": "^1.4.7"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",

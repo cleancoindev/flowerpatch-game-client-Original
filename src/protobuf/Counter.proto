@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package protobuf;
+
+// ============================================ //
+// DATABASE COUNTER RECORDS //
+// ============================================ //
+
+message Counter {
+    int64 num = 1;
+}

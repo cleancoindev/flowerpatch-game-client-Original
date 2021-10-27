@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package protobuf;
+
+// Database key: tile position "X,Y"
+message GameTile {
+    int32 x = 1;
+    int32 y = 2;
+    string owner = 3;
+    int64 last_changed_timestamp = 4;
+
+    message Content {
+        enum Type {
+            WATERED = 0;
+            TILLED = 1;
+            PLANTED = 2;
+            TOPPER = 3;
+        }
+
+        enum GrowthStage {
+            SEEDLING = 0;
+            SPROUT = 1;
+            SAPLING = 2;
+            ADULT = 3;
+        }
+
+        Type type = 1;
+        int64 eth_id = 2;
+        GrowthStage growth_stage = 3;
+        int64 topper_id = 4;
+        int64 timestamp = 5;
+
+        // Slowly transitioning to using TOPPER + ID + VARDATA primarily
+        // Can use protobuf.Any or protobuf.Struct to achive variable data
+    }
+
+    repeated Content content = 9;
+}

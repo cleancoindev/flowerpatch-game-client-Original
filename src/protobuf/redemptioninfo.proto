@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protobuf;
+
+// Database key is the redemptionKey
+message RedemptionInfo {
+    int64 templateFlowerID = 1;
+    string account = 2;
+    string email = 3;
+    string partnerAffiliate = 4;
+    int64 dateRedeemed = 5;
+    int64 expiryDate = 6;
+}

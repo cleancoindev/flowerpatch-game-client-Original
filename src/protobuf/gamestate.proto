@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package protobuf;
+
+import "protobuf/gametile.proto";
+
+message GameState {
+    int64 timestamp = 1;
+    map<string, GameTile> game_tiles = 2;
+}

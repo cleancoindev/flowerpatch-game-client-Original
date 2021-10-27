@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package protobuf;
+
+message BreedingParams {
+    int64 parentOne = 1;
+    int64 parentTwo = 2;
+}

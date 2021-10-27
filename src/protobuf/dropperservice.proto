@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package protobuf;
+
+import "protobuf/servicecommon.proto";
+
+service Dropper {
+  rpc Drop (DropRequest) returns (EmptyReply) {}
+}
+
+message DropRequest {
+    string unique_i_d = 1;
+    string source_account = 2;
+    string dest_account = 3;
+
+    enum Type {
+        MARKET_FLOWER = 0;
+        ETHEREUM = 1;
+        RANDOM_NFT = 2;
+    }
+    Type type = 4;
+
+    int64 store_d_b_i_d = 5; // for type MARKET_FLOWER
+    string wei = 6; // big int for type ETHEREUM
+
+    // BELOW: supplemental data added for database record only
+    string fulfilment_tx = 7;
+    string n_f_t_contract = 8;
+    int64 n_f_t_token_i_d = 9;
+}

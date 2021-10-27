@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+package protobuf;
+
+import "google/protobuf/struct.proto";
+import "protobuf/servicecommon.proto";
+import "protobuf/gametile.proto";
+import "protobuf/gamestate.proto";
+import "protobuf/inventory.proto";
+
+service Game {
+  rpc GetGameTileByFlower (SingleInt64) returns (GameTile) {}
+  rpc SetGameTile (GameTileRequest) returns (GameTile) {}
+  rpc AddGameTileContent (GameTileRequest) returns (GameTile) {}
+  rpc GetGameState (GameStateRequest) returns (GameState) {}
+  rpc GetBreedingPartnersForFlower (SingleInt64) returns (RepeatedInt64) {}
+  rpc GetGameStats (EmptyRequest) returns (GameStats) {}
+  rpc Interact (InteractionRequest) returns (InteractionReply) {}
+  rpc GetPlantedFlowersByAccount (EmptyRequest) returns (PlantedFlowers) {}
+  rpc GetInventoryForAccount (EmptyRequest) returns (Inventory) {}
+  rpc CraftItem(ItemTypeRequest) returns (Inventory) {}
+}
+
+message PlantedFlowers {
+    message Planted {
+        int32 i_d = 4;
+        int32 location_x = 5;
+        int32 location_y = 6;
+    }
+
+    repeated Planted planted = 1;
+}
+
+message InteractionRequest {
+    string source_account = 1;
+    int32 x = 2;
+    int32 y = 3;
+    google.protobuf.Struct data = 4;
+}
+
+// Currently used for Presents/Drops:
+//  - unique_i_d: DropRequest database key
+//  - roll: 0-100 prize roll
+//  - result_type: string representing the prize category
+//  - text: user-facing description of the prize
+message InteractionReply {
+    string unique_i_d = 1;
+    int32 roll = 2;
+    string result_type = 3;
+    string text = 4;
+}
+
+message GameTileRequest {
+    string source_account = 1;
+    GameTile game_tile = 2;
+}
+
+message GameStateRequest {
+    string source_account = 1;
+    int64 last_timestamp = 2;
+}
+
+message GameStats {
+    int64 total_flowers_planted = 1;
+    int64 flowers_planted_by_account = 2;
+}

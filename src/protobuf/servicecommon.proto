@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package protobuf;
+
+message EmptyRequest {
+    string source_account = 1;
+}
+
+message EmptyReply {
+}
+
+message SingleInt64 {
+    string source_account = 1;
+    int64 input = 2;
+}
+
+message RepeatedInt64 {
+    repeated int64 list = 1;
+}
+
+message SingleString {
+    string source_account = 1;
+    string input = 2;
+}

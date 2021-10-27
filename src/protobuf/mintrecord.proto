@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+package protobuf;
+import "protobuf/flower.proto";
+
+// ============================================ //
+// DATABASE ENTRY RECORDING CARD MINTING STATUS //
+// ============================================ //
+
+message MintRecord {
+    // ---------------------
+    // CURRENT MINTER STATUS
+    // ---------------------
+
+    enum Status {
+        STATUS_NONE = 0;
+        STATUS_STARTED = 1;
+        STATUS_COMPLETED = 2;
+        STATUS_ERR = 5;
+        STATUS_ERR_TIMEOUT = 6;
+    }
+    Status status = 1;
+    string statusMessage = 2;
+
+    // -------------------------
+    // INCOMING PAYMENT DETAILS
+    // -------------------------
+
+    string payerAddress = 3;
+
+    message PaymentDetails {
+        enum PaymentType {
+            TYPE_ETH = 0;
+            TYPE_SEED = 1;
+        }
+        PaymentType type = 1;
+
+        int64 value = 2;
+        int64 storeDBID = 3;
+        int64 itemType = 4;
+    }
+    PaymentDetails paymentDetails = 4;
+
+    // ---------------------
+    // OUTGOING MINT DETAILS
+    // ---------------------
+
+    string mintingTransactionHash = 5;
+
+    message MintingDetails {
+        int64 gasPrice = 1;
+        int64 gasLimit = 2;
+        string minterAddress = 3;
+    }
+    MintingDetails mintingDetails = 6;
+
+    // ----------
+    // TIMESTAMPS
+    // ----------
+
+    message Timestamps {
+        int64 started = 1;
+        int64 completed = 2;
+        int64 error = 3;
+    }
+    Timestamps timestamps = 8;
+
+    // ---------------
+    // ADDITIONAL DATA
+    // ---------------
+
+    Flower flowerData = 9;
+}
